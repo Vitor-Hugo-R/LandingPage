@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Racing Sans One', sans-serif;
+}
+
+header {
+    min-height: 600px;
+    background-image: url(../img/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.bg-gradiente {
+    min-height: 500px;
+    background: #0000;
+}
+
+.hearder-border {
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+#logo {
+    width: 200px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2em;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.menu {
+    flex: 1;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+}
+.menu ul li{
+    min-width: 100px;
+    line-height: 28px;
+}
+.menu ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 20px;
+}
+.menu ul li a:hover{
+    color: dimgray;
+}
+#register{
+    background-color: rgba(74, 84, 92, 0.25);
+    width: 100%;
+    height: 400px;
+    max-width: 350px;
+    position: absolute;
+    bottom: 10px;
+    right: 10vw;
+    box-shadow: 10px 10px 2.2rem rgba(0, 0, 0, 0.63);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: black;    
+}
+#register p{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 35px;
+    text-align: center;
+}
+#register .field{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#register input{
+    width: 100%;
+    padding: 0.75em 1rem;
+    border-radius: 4px;
+    border: 1px solid #000000;
+}
+#register input[type=radio]{
+    width: 35px;    
+}
+#register button{
+    width: 100%;
+    border: none;
+    background-color: rgb(107, 63, 32);
+    color: aliceblue;
+    padding: .75rem;
+    font-size: 1.3em;
+}
