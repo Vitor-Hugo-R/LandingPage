@@ -46,20 +46,24 @@ header {
     list-style: none;
     padding: 0;
 }
-.menu ul li{
+
+.menu ul li {
     min-width: 100px;
     line-height: 28px;
 }
-.menu ul li a{
+
+.menu ul li a {
     color: aliceblue;
     text-decoration: none;
     font-weight: 600;
     padding: 20px;
 }
-.menu ul li a:hover{
+
+.menu ul li a:hover {
     color: dimgray;
 }
-#register{
+
+#register {
     background-color: rgba(74, 84, 92, 0.25);
     width: 100%;
     height: 400px;
@@ -70,32 +74,120 @@ header {
     box-shadow: 10px 10px 2.2rem rgba(0, 0, 0, 0.63);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    color: black;    
+    color: black;
+    padding: 20px;
 }
-#register p{
+
+#register p {
     font-size: 1.5em;
     font-weight: 500;
     margin-bottom: 35px;
     text-align: center;
 }
-#register .field{
+
+#register .field {
     width: 100%;
     margin-bottom: 20px;
 }
-#register input{
+
+#register input {
     width: 100%;
     padding: 0.75em 1rem;
     border-radius: 4px;
     border: 1px solid #000000;
 }
-#register input[type=radio]{
-    width: 35px;    
+
+#register input[type=radio] {
+    width: 35px;
 }
-#register button{
+
+#register button {
     width: 100%;
     border: none;
-    background-color: rgb(107, 63, 32);
+    background-color: rgb(201, 98, 25);
     color: aliceblue;
     padding: .75rem;
     font-size: 1.3em;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#title h1 {
+    font-size: 3em;
+    border-bottom: 2px #ccc solid;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: 30px;
+}
+
+.home p {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+#sobre,
+#contact,
+.inputs,
+.contact-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 220px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-container textarea {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+
+.contact-container input[type=submit] {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: chocolate;
+    color: aliceblue;
+}
+
+.contact-container p {
+    text-align: center;
+}
+
+footer {
+    color: #5f5e5e;
+    background-color: #ffffffff;
+    font-size: .8em;
+}
+
+footer .container {
+    display: flex;
+    width: 100%;
+}
+
+footer .menu ul li a {
+    color: #5f5e5e;
+}
+
+footer .container .menu {
+    display: flex;
+    justify-content: flex-end;
 }
